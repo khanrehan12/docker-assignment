@@ -8,6 +8,6 @@ spec:
     app: dockerassignment
   ports:
     - protocol: TCP
-      port: 7878
-      targetPort: 7878
+      port: 9696
+      targetPort: 9696
       nodePort: 30007

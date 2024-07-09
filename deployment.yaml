@@ -16,4 +16,4 @@ spec:
       - name: democontainer1
         image: khanrehan12/docker-assignment:v2
         ports:
-        - containerPort: 7878
+        - containerPort: 9696
