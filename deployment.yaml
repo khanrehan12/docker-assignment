@@ -1,7 +1,7 @@
 apiVersion: apps/v1
-kind: Deployment
+kind: deployment
 metadata:
-  name: docker-assignment-deployment
+  name: docker-assignment
 spec:
   replicas: 2
   selector:
