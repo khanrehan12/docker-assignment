@@ -13,8 +13,8 @@ spec:
         app: docker-assignment
     spec:
       containers:
-      - name: democontainer1
-        image: khanrehan12/docker-assignment:v2
+      - name: docker-assignment
+        image: khanrehan12/docker-assignment:latest
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 9696

@@ -3,11 +3,10 @@ kind: Service
 metadata:
   name: docker-assignment
 spec:
-  type: NodePort
   selector:
     app: docker-assignment
   ports:
-    - protocol: TCP
+    - protocol: "TCP"
       port: 9696
       targetPort: 9696
-      nodePort: 32210
+  type: NodePort
